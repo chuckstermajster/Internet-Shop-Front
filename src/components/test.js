@@ -1,9 +1,14 @@
 import React from "react";
+import styled from "styled-components";
+
+const H1 = styled.h1`
+  font-size: 88px;
+`;
 
 const Test = () => {
   return (
     <div>
-      <h1>Test komponentu funkcyjnego</h1>
+      <H1>Test komponentu funkcyjnego</H1>
     </div>
   );
 };

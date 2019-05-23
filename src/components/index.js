@@ -6,7 +6,7 @@ class MainComponent extends React.Component {
     return (
       <div>
         <Test />
-        <h2>Test komponentu klasowego</h2>
+        <h2>Test komponentu klasowegddo</h2>
       </div>
     );
   }
