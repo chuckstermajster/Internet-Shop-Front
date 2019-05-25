@@ -1,12 +1,11 @@
 import React from "react";
-import Test from "./test";
+import NavBar from "./NavBar";
 
 class MainComponent extends React.Component {
   render() {
     return (
       <div>
-        <Test />
-        <h2>Test komponentu klasowegddo</h2>
+        <NavBar />
       </div>
     );
   }
