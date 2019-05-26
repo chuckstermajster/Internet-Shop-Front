@@ -1,11 +1,15 @@
 const path = require("path");
 var HtmlWebpackPlugin = require("html-webpack-plugin");
+var StyledComponentsBabel = require("babel-plugin-styled-components");
 
 module.exports = {
   entry: "./src/app.js",
   output: {
     path: path.join(__dirname, "public"),
     filename: "bundle.js"
+  },
+  node: {
+    fs: "empty"
   },
   plugins: [
     new HtmlWebpackPlugin({
