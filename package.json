@@ -25,6 +25,7 @@
     "sass-loader": "7.1.0",
     "style-loader": "0.23.1",
     "styled-components": "^4.2.0",
+    "styled-icons": "^8.0.0",
     "validator": "11.0.0",
     "webpack-dev-server": "3.4.1"
   },
