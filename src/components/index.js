@@ -1,13 +1,13 @@
 import React from "react";
 import NavBar from "./navBar";
-import SearchBar from "./searchBar";
+import SearchBox from "./searchBox";
 
 class MainComponent extends React.Component {
   render() {
     return (
       <div>
         <NavBar />
-        <SearchBar />
+        <SearchBox />
       </div>
     );
   }
