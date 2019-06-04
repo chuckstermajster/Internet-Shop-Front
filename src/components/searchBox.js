@@ -7,13 +7,15 @@ const StyledFlexBoxWrapper = styled.div`
   align-items: center;
   justify-content: center;
   border: 0.1rem solid green;
+  margin-bottom: 3rem;
 `;
 
 const StyledSearchBoxWrapper = styled.div`
   margin-left: auto;
   margin-top: 2rem;
-  margin-right: 6rem;
   border: 0.1rem solid red;
+  padding: 0;
+  position: relative;
 `;
 
 const ListedItem = styled.li`

@@ -10,7 +10,7 @@ const StyledContainer = styled.div`
 const StyledInput = styled.input`
   border: none;
   border-radius: 0.5rem 0 0 0.5rem;
-  padding: 0.2rem 3.2rem;
+  padding: 0.2rem 3.8rem;
   outline: 0;
 `;
 
